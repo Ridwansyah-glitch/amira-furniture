@@ -1,0 +1,447 @@
+body {
+
+    font-family: 'Assistant', sans-serif;
+}
+
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+
+header {
+    padding: 180px 40px 280px;
+    margin-top: -67px;
+    background-image: url(../img/jumbotron2.jpg);
+    background-size: cover;
+
+
+
+
+    h1 {
+        color: rgb(116, 98, 75);
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 22px;
+        color: rgb(218, 218, 218);
+    }
+
+    .btn-get-started {
+        background-color: #5e5225;
+        color: #fff;
+    }
+
+    .btn-get-started:hover {
+        background-color: #786721;
+        color: #fff;
+    }
+
+
+}
+
+.section-arrival {
+    align-content: flex-start;
+    padding-bottom: 50px;
+
+    .section-arrival-heading {
+        margin: 50px 0px;
+
+        h2,
+
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+
+
+
+    }
+
+    .kotak1 {
+        width: 200px;
+        height: 300px;
+        border: 1px solid black;
+        margin: 5px;
+    }
+
+    .kotak2 {
+        width: 250px;
+        height: 150px;
+        border: 1px solid darkcyan;
+        margin: 5px;
+    }
+
+    .kotak3 {
+        width: 450px;
+        height: 150px;
+        border: 1px solid darkcyan;
+        margin: 5px;
+    }
+
+
+
+
+}
+
+.section-product {
+
+    margin: 0px 0px 30px 0px;
+
+    .section-product-heading {
+        margin: 50px 0px;
+
+        h2,
+
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+
+    }
+
+    table {
+        border: none;
+        font-size: 15px;
+    }
+
+    .card-sofa {
+        min-height: 200px;
+        background-color: #fafafab0;
+        padding: 10px;
+        background-size: cover;
+        margin-bottom: 20px;
+        opacity: 0;
+        -webkit-transform: translate(0, -40px);
+        transform: translate(0, -40px);
+        -webkit-transition: 5s;
+        transition: 1s;
+        box-sizing: border-box;
+        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .btn-beli {
+            text-align: center;
+            background-color: #6d611f;
+            border-radius: 3px;
+            color: #FFF;
+        }
+
+        .btn-beli:hover {
+            background-color: #786721;
+
+        }
+
+
+        .card-body {
+            margin-top: 50px;
+        }
+    }
+
+    .muncul {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .img-prodak {
+        max-width: 38%;
+        margin: 10px 80px;
+
+    }
+
+
+
+
+}
+
+.section-networks {
+  
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    .features {
+        opacity: 0;
+        -webkit-transform: translate(0, -60px);
+        transform: translate(0, -60px);
+        -webkit-transition: 10s;
+        transition: 1s;
+    }
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 40px;
+
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    img {
+        max-width: 45%;
+    }
+
+    .show {
+        opacity: 1;
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+}
+
+.section-testimonial-heading {
+
+    padding: 50px;
+
+
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+
+
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+}
+
+.section-testimonial-content {
+ 
+    padding: 10px auto;
+
+
+    .card-testimonial {
+        padding: 40px 20px 10px;
+        border-radius: 11px;
+        margin-bottom: 20px;
+
+        .testimonial-content {
+            min-height: 300px;
+        }
+
+        h3 {
+            font-size: 22px;
+
+        }
+
+        .testimonial {
+            font-weight: 200;
+            font-size: 26px;
+            color: #6e6e6e;
+            min-height: 160px;
+
+        }
+
+    }
+}
+
+
+.section-details-header {
+    min-height: 310px;
+    background-color: #E4E6EB;
+    margin-top: -70px;
+}
+
+.section-details-content {
+    margin-top: -210px;
+    min-height: 100vh;
+
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+            color: #616161;
+        }
+    }
+
+    //details
+    .card-details {
+        padding: 30px;
+        border-radius: 11px;
+
+        h1 {
+            font-size: 26px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #B1B1B1;
+        }
+
+        h3 {
+            font-weight: 600;
+            font-size: 14px;
+            // color: #5e5225;
+        }
+
+        .btn-detail {
+            background-color: #5e5225;
+            color: #fff;
+            border-radius: 3px;
+
+        }
+
+        .btn-detail:hover {
+            background-color: #786721;
+            color: #fff;
+        }
+
+        .btn-lanjutbeli {
+            background-color: #5e5225;
+            color: #fff;
+            border-radius: 3px;
+           
+        }
+
+        .btn-lanjutbeli:hover {
+            background-color: #786721;
+            color: #fff;
+        }
+
+    }
+
+    .card-right {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+        span {
+            font-size: 15px;
+        }
+    }
+
+    .btn-beli {
+        background-color: #5e5225;
+        color: #fff;
+        border-radius: 3px;
+
+    }
+
+    .btn-beli:hover {
+        background-color: #786721;
+        color: #fff;
+    }
+
+
+
+
+
+    .join-container {
+        margin-top: -16px;
+
+    }
+
+    .tb-tambah {
+        border: 1px solid;
+        padding: 0;
+        font-size: 15px;
+
+        td {
+            border: 1px solid;
+            padding: 0.1;
+
+        }
+    }
+
+    .info-pelanggan {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #6e6e6e;
+    }
+
+    a:hover {
+        color: #afafaf;
+    }
+
+    .thumb-prodak {
+        width: 110px;
+        border: 1px solid #DDD;
+    }
+
+    .thumb-prodak-right {
+        width: 70px;
+        border: 1px solid #DDD;
+        margin: -20px 10px 0px 30px;
+    }
+
+    .tambah-prodak {
+        border: 1px solid #7a7a7a;
+        padding: 5px 15px;
+        margin: 0px;
+    }
+
+
+    .gallery {
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 10px;
+            }
+
+            .xactive {
+                border: 4px solid #1ABC9C;
+                box-shadow: none;
+            }
+        }
+
+
+    }
+}
+
+
+.hr {
+    border-bottom: 2px solid black;
+    width: 50%;
+
+}
+
+.section-footer {
+    padding: 50px;
+background-color: #f1eded;
+    a {
+        color: #5e5225;
+    }
+
+    img {
+        max-width: 80%;
+    }
+
+}
